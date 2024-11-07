@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="d-flex w-100 justify-content-between align-items-center">
+            <a class="navbar-brand" href="#">AskMe</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Ask</button>
+            </form>
+
+            <div class="d-flex gap-3">
+              <img src="qqq.jpg" alt="Avatar" class="img_thumbnail">
+              <div >
+                <div>
+                  Username
+                </div>
+                <a href="#">settings</a>
+                <a href="#">log out</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <main class="container mt-3">
+      <div class="d-flex gap-3 align-items-center">
+        <h1>New Question</h1>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col-8">
+              <div class="form-floating mb-3">
+                <textarea class="form-control" maxlength="50" placeholder="Leave a title here" id="floatingTextarea2" style="height: 50px"></textarea>
+                <label for="floatingTextarea2">Title</label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea class="form-control" maxlength="400" placeholder="Leave a text here" id="floatingTextarea2" style="height: 300px"></textarea>
+                <label for="floatingTextarea2">Text</label>
+              </div>
+              <div class="form-floating is-invalid">
+                <input type="text" class="form-control is-invalid" id="floatingInputGroup2" placeholder="Tags" required>
+                <label for="floatingInputGroup2">Tags</label>
+              </div>
+              <div class="invalid-feedback">
+                Please enter 3 tags.
+              </div>
+              <button type="button" class="btn btn-outline-success">Ask</button>
+        </div>
+
+        <div class="col">
+          <section class="mb-3">
+            <h2>Popular tags</h2>
+            <div class="">
+                <span class="badge text-bg-primary">tag 1</span>
+                <span class="badge text-bg-secondary">tag 2</span>
+                <span class="badge text-bg-success">tag 3</span>
+                <span class="badge text-bg-danger">tag 4</span>
+                <span class="badge text-bg-warning">tag 5</span>
+                <span class="badge text-bg-info">tag 6</span>
+                <span class="badge text-bg-light">tag 7</span>
+                <span class="badge text-bg-dark">tag 8</span>
+                <span class="badge text-bg-primary">tag 9</span>
+                <span class="badge text-bg-secondary">tag 10</span>
+                <span class="badge text-bg-success">tag 11</span>
+                <span class="badge text-bg-danger">tag 12</span>
+                <span class="badge text-bg-warning">tag 13</span>
+                <span class="badge text-bg-info">tag 14</span>
+                <span class="badge text-bg-light">tag 15</span>
+                <span class="badge text-bg-dark">tag 16</span>
+                <span class="badge text-bg-primary">tag 17</span>
+                <span class="badge text-bg-secondary">tag 18</span>
+                <span class="badge text-bg-success">tag 19</span>
+                <span class="badge text-bg-danger">tag 20</span>
+            </div>
+          </section>
+          <section>
+            <h2>Best members</h2>
+            <div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="">Member</a></li>
+                <li class="list-group-item"><a href="">Member</a></li>
+                <li class="list-group-item"><a href="">Member</a></li>
+                <li class="list-group-item"><a href="">Member</a></li>
+                <li class="list-group-item"><a href="">Member</a></li>
+                <li class="list-group-item"><a href="">Member</a></li>
+                <li class="list-group-item"><a href="">Member</a></li>
+                <li class="list-group-item"><a href="">Member</a></li>
+                <li class="list-group-item"><a href="">Member</a></li>
+                <li class="list-group-item"><a href="">Member</a></li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+
+    </main>
+
+    <script src="../static/js/bootstrap.min.js"></script>
+</body>
+
+</html>
